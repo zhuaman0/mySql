@@ -9,7 +9,6 @@ const port = 5000;  // Changed from 5173 to 5000
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
-
 // Create MySQL connection
 const db = mysql.createConnection({
   host: 'localhost',

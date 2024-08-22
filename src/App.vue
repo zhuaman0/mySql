@@ -4,7 +4,7 @@
 	</div>
  </template>
  
- <script setup>
+ <script setup> 
  import UserList from './components/UserList.vue';
  </script>
  
